@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Public Signage Android Client</string>
+    <string name="welcome">Digital Signage Android Client running...</string>
+    
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:weightSum="1">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/addresstext" android:paddingRight="10dp" android:paddingLeft="10dp" android:text="Address:"></TextView>
+        <EditText android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/addressfield">
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:paddingLeft="10dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/porttext" android:text="Port:" android:paddingRight="39dp"></TextView>
+        <EditText android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/portfield"></EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="match_parent">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:paddingLeft="10dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/topictext" android:text="Topic:" android:paddingRight="30dp"></TextView>
+        <EditText android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/topicfield"></EditText>
+    </LinearLayout>
+    <Button android:layout_height="wrap_content" android:id="@+id/connectbutton" android:text="Connect" android:layout_width="fill_parent"></Button>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/statustext" android:paddingLeft="10dp" android:paddingRight="10dp"></TextView>
+</LinearLayout>
